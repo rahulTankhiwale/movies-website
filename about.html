@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:black;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration:none;
+  scroll-padding-top:2rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  width: 0.5rem;
+  background:black;
+}
+html::-webkit-scrollbar-thumb{
+  border-radius:5rem;
+  background: red;
+}
+p{
+  color:white;
+}
+
+h2{
+  color: white;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+a:-webkit-any-link {
+  /*  color: -webkit-link;
+    cursor: pointer;*/
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: none;
+    text-decoration-style: none;
+    text-decoration-color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: Red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>This page is about our team .</p>
+  <p>The purpuse of this website is to get free accsess of movies and other stuff .</p>
+</div>
+<HR>
+<h2 style="text-align:center ">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/rahul.jpeg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2 >  Rahul Tankhiwale</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Hello my name is Rahul I am glad to say that you can get movies webseries and and other stuff for free <span> If you have any concern let us know, contact us  on given mail </span></p>
+        <p>rahultankhiwale14@example.com</p>
+        <p> <a href="feedback.html" class="button">Contact</a> </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/emp2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>y</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p> <a href="feedback.html" class="button">Contact</a> </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/emp2.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p> <a href="feedback.html" class="button">Contact</a> </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

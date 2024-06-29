@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color:black;
+}
+html::-webkit-scrollbar{
+  width: 0.5rem;
+  background:black;
+}
+html::-webkit-scrollbar-thumb{
+  border-radius:5rem;
+  background: red;
+}
+h2{
+  color:white;
+}
+h5{
+  color:white;
+}
+h3{
+  color:white;
+}
+p{
+  color:red;
+}
+.btn{
+  background-color:red;
+  padding:6px;
+  margin:10px;
+  border-radius:3rem;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: black;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Upcoming Series</h2>
+</div>
+<Hr>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Mirzapur</h2>
+      <h5>Thriller, 2018 ‧ Thriller ‧ 2 seasons</h5>
+        <img src="img/miz.jpg" alt="Jane" style="width:100%">
+      <p>Mirzapur is an Indian Hindi-language action crime thriller webseries on Amazon Prime Video, created by Karan Anshuman, who wrote the script along with Puneet Krishna & Vineet Krishna. Anshuman directed the first season of the series, along with Gurmmeet Singh and Mihit Desai, who also directed the second season of the series. The series is produced by Rithesh Sidhwani and Farhan Akhtar of Excel Entertainment.[1]</p>
+      <p>Mirzapur is an Indian Hindi-language action crime thriller webseries on Amazon Prime Video, created by Karan Anshuman, who wrote the script along with ..</p>
+    </div>
+    <div class="card">
+  <Hr>
+      <h2>13 Reasons Why</h2>
+      <h5>2017 | A | 4 Seasons | Teen TV Shows</h5>
+      <img src="img/14.jpg" alt="Jane" style="width:100%">
+      <p>13 Reasons Why is an American teen drama television series developed for Netflix by Brian Yorkey and based on the 2007 novel Thirteen Reasons Why by author Jay Asher. The series revolves around high school student Clay Jensen (Dylan Minnette) and the aftermath of the suicide of fellow high school student Hannah Baker (Katherine Langford).[4] Before her death, she leaves behind a box of cassette tapes in which she details the reasons why she chose to end her life as well as the people she believes are responsible for her death.</p>
+      <p>Through its various storylines, the show explores and depicts a wide range of social issues affecting modern youth. The series was produced by July Moon Productions, Kicked to the Curb Productions,  </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Feedback</h2>
+      <div class="fakeimg" style="height:100px;"></div>
+      <input type="Text" placeholder="write up.."required>
+      <input type="submit" value="Submit" class="btn">
+
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Tweets</h3>
+       <p style="color:cornflowerblue;"> Abhishek Bachchan<br>
+The Junior B has over 413,658 followers. Abhishek gives credit of his joining Twitter to Tarun Mansukhani, the director of Dostana, who is already twittering for quite some time now.</p><br>
+      <p style="color:cornflowerblue;">Lady Gaga <br>Hello my filthy , fabulous, dirty rich, fame lovers. I'm in Miami right now, just had a crazy week/ day preparing for winter music confe ...</p><br>
+      <div </div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>If you are looking to add some upcoming web series to your watch-list, all you need to do is keep an eye on this page for the latest updates from various OTT platforms. From local language shows to international hits, we browse through them all on Netflix, Amazon Prime Video, Disney+ Hotstar and other platforms to get you the best of entertainment. Find here the synopsis, release dates, trailers, cast, and more, and make your pick from the best shows to watch online..</p>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
